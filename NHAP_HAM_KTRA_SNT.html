@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a =prompt('nhap so');
+    function snt(a) {
+        if(a<=1){
+            return false
+        }else {
+            for (i=2 ;i<Math.sqrt(a);i++){
+                if (a%2==0){
+                    return false
+                }
+                return true
+            }
+        }
+
+    }
+    if (snt(a)) alert('la so nguyen to')
+    else alert('khong so nt')
+
+</script>
+
+</body>
+</html>
